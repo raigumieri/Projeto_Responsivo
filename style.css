@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 800px;
+    margin: 20% auto;
+    border: 1px solid blueviolet;
+    background: #fff;
+    padding: 30px;
+}
+
+main{
+    display: flex;
+}
+
+section img{
+    width: 100%;
+    max-width: 400px;
+}
+
+section p{
+    margin-top: 15%;
+}
+
+/* Mobile */
+@media screen and (max-width:481px){
+    body{
+        background: green;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    section p{
+        margin-top: 0;
+    }
+}
+
+
+/*------------------------------------------------------*/
+
+/* Exemplos */
+
+/* Extra small devices */
+/* @media (min-width:482px) and (max-width:767px){
+    body{
+        background: blue;
+    }
+} */
+
+/* Small Tablet */
+@media (min-width: 768px) and (max-width:991px){
+    body{
+        background: red;
+    }
+}
+
+/* Tablets / Laptops */
+@media (min-width: 992px) and (max-width: 1199px){
+    body{
+        background: purple;
+    }
+}
+
+/* Desktops */
+@media (min-width: 1200px) and (max-width: 1999px){
+    body{
+        background: yellow;
+    }
+}
+
+/* Extra large screens */
+@media (min-width: 2000px){
+    body{
+        background: orange;
+    }
+}
